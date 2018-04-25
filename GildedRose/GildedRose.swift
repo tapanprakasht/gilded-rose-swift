@@ -59,15 +59,10 @@ public class GildedRose {
       var newItem: Item = item
       if newItem.quality < 50 {
         newItem.quality = newItem.quality + 1
-      }
-      if newItem.sellIn < 11 {
-        if newItem.quality < 50 {
+        if newItem.sellIn < 11 {
           newItem.quality = newItem.quality + 1
         }
-      }
-      
-      if newItem.sellIn < 6 {
-        if newItem.quality < 50 {
+        if newItem.sellIn < 6 {
           newItem.quality = newItem.quality + 1
         }
       }
